@@ -3,6 +3,7 @@
 * {
     margin: 0;
     font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
 }
 
 body {
@@ -62,7 +63,22 @@ body {
     gap: 10px
 }
 
+.path {
+    height: 20px;
+    background-color: #0c122c;
+    border-radius: 10px;
+    padding: 3px;
+}
+
 .state {
     display: flex;
     justify-content: space-between;
+}
+
+.path-two {
+    width: 340px;
+    height: 14px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #ffa399, #ff4d97);
+    /* hsl(6, 100%, 80%) to hsl(335, 100%, 65%) */
 }
