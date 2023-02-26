@@ -8,8 +8,11 @@
 
 body {
     background-color: #0c122c;
+}
+
+main {
     height: 100vh;
-    background-image: url(../image/bg-desktop.png);
+    background-image: url(../image/bg.png);
     background-repeat: no-repeat;
     background-position: bottom;
 
@@ -17,7 +20,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.block {
+    /* Flex */
+    display: flex;
     gap: 30px;
+    align-items: flex-end;
+    margin-bottom: 50px;   
 }
 
 .conteiner1 {
@@ -126,8 +136,12 @@ span {
 .balloon-left {
     width: 0px;
     height: 0px;
-    background-color: aqua;
+    background-color: transparent;
     position: absolute;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
+    border: 20px solid transparent;
+    border-top: 20px solid aliceblue;
+    border-right: 20px solid aliceblue;
+
+    margin-left: 140px;
+    margin-top: 80px;
 }
