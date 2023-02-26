@@ -78,7 +78,56 @@ body {
 .path-two {
     width: 340px;
     height: 14px;
+    padding: 2px;
     border-radius: 10px;
     background-image: linear-gradient(to right, #ffa399, #ff4d97);
-    /* hsl(6, 100%, 80%) to hsl(335, 100%, 65%) */
+
+}
+
+.circle {
+    background-color: aliceblue;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-left: auto;
+}
+
+span {
+    font-weight: 700;
+}
+
+.balloon {
+    width: 180px;
+    height: 70px;
+    background-color: aliceblue;
+    border-radius: 10px;
+
+    /* Flex */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+    position: absolute;
+    margin-left: 280px;
+    margin-bottom: 160px;
+}
+
+.balloon span {
+    color: #0c122c;
+    font-size: 32px;
+}
+
+.balloon p {
+    color: #86858a;
+    font-weight: bold;
+}
+
+.balloon-left {
+    width: 0px;
+    height: 0px;
+    background-color: aqua;
+    position: absolute;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
 }
